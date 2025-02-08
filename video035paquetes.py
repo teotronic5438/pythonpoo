@@ -13,3 +13,23 @@
 # Son directorios donde se almacenaran modulos relacionados entre si.
 
 # Para que una carpeta funcion como paquete debe tener un archivo __init__.py
+
+#    carpeta_paquete.modulo (si hay clases usamos sus nombres o  * y traemos todo)
+'''
+from calculos.calculos_generales import division
+
+division(10, 2)
+
+from calculos.calculos_generales import *
+
+redondear(10.2)
+sumar(2,3)
+restar(10,2)
+multiplicar(10,2)
+division(4,5)
+potencia(3,4)
+'''
+
+# Ahora agregamos calculos y paquetes añadidos
+from calculos.basicos.basicos import *
+sumar(5,7)

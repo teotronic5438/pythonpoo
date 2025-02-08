@@ -34,7 +34,7 @@ def saludar(nombre):
 
     # Úsalo en otro archivo:
 
-import mimodulo
+import modulos.mimodulo as mimodulo
 print(mimodulo.saludar("Elias"))  # "Hola, Elias!"
 
 
