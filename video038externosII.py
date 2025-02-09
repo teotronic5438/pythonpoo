@@ -21,3 +21,12 @@ archivo_texto.close()
 # print(texto)
 print(texto2)
 print(texto3)
+
+
+# Si quiero leer SOLO LA SEGUNDA MITAD DEL ARCHIVO
+archivo_texto = open("ficheros/myfile.txt", "r", encoding="utf-8")
+
+print("\n CIERRA TU PICO\n")
+archivo_texto.seek(len(archivo_texto.read())/2)  # mueve el cursor a la mitad de la posicion
+print(archivo_texto.read())  # lee el archivo completo desde la segunda mitad
+
