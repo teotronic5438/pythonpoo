@@ -1,5 +1,14 @@
-# Creacion de interfaces graficas
+# Creacion de interfaces graficas: ventanas con las que interactuamos en una pc.
 #   Libreria Tkinter
+# Formadas por un conjunto de graficos como ventanas, botones, casillas de verificacion, etc.
+# GUI: Graphic User Interface
+# Librerias con las que trabajar para crear GUI:
+# a) Tkinter
+# b) WxPython
+# c) PyQt
+# d) PyGTK
+
+# Formato: Raiz(tk) => Frame => widget (puede ser boton, menu, frames, etc)
 
 import tkinter as tk
 
