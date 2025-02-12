@@ -30,3 +30,10 @@ print("\n CIERRA TU PICO\n")
 archivo_texto.seek(len(archivo_texto.read())/2)  # mueve el cursor a la mitad de la posicion
 print(archivo_texto.read())  # lee el archivo completo desde la segunda mitad
 
+
+# Abrir el fichero con modo lectura y escritura
+archivo_texto = open("ficheros/myfile.txt", "r+", encoding="utf-8") # r+ = lectura y escritura
+print(archivo_texto.readlines())
+archivo_texto.seek(0)
+archivo_texto.write("Hola este es un fichero lectura escitura.\n")
+print(archivo_texto.readlines())

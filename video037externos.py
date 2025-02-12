@@ -37,7 +37,7 @@ with open("ficheros/myfile.txt", "r", encoding="utf-8") as archivo_texto:
         print(linea.strip())  # Eliminamos saltos de línea extra
 
 
-# agregando archivo append (extension añadir)
+# agregando texto al archivo MODO=append (extension añadir)
 archivo_texto = open("ficheros/myfile.txt", "a", encoding="utf-8")
 archivo_texto.write("Esta es una nueva linea.\n")
 archivo_texto.close()

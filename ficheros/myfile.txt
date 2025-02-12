@@ -1,3 +1,4 @@
-Aprendiendo el uso de ficheros.
-Hoy es sabado por la noche 2.
+Hola este es un fichero lectura escitura.
+ado por la noche 2.
 Esta es una nueva linea.
+Hola este es un fichero lectura escitura.
